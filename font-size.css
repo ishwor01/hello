@@ -1,0 +1,168 @@
+*{
+
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+
+
+header{
+    display: flex;
+text-align: center;
+justify-content: space-between;
+padding: 20px 50px;
+align-items: center;
+}
+
+
+
+
+.logo{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+
+.main-link ul li{
+display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.main-link ul li a{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background: #000;
+    min-height: 200vh;
+}
+
+
+header{
+
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transform: 0.6s;
+padding: 40px 100px;
+z-index: 1000;
+
+}
+
+
+header .logo{
+
+position: relative;
+font-weight: 700;
+color: #fff;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: 0.6s;
+}
+
+
+header ul {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul li{
+
+
+position: relative;
+list-style: none;
+
+}
+
+
+header ul li a{
+position: relative;
+margin: 0 25px;
+text-decoration: none;
+color: #fff;
+letter-spacing: 2px;
+font-weight: 500px;
+transition: 0.6s;
+}
+
+
+section p{
+    position: relative;
+    color: #fff;
+}
+
+
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+
+
+header.sticky .logo{
+    color: #000;
+
+}
+
+header.sticky ul li a{
+    color: #000;
+} */

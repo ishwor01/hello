@@ -1,0 +1,455 @@
+*{
+
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+text-align: center;
+justify-content: space-between;
+padding: 20px 50px;
+align-items: center;
+width: 100%;
+z-index: 9999;
+}
+
+
+
+
+.logo{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+
+
+.main-link ul {
+
+    margin-right: 80px;
+}
+
+.main-link ul li{
+display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.main-link ul li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+
+
+
+
+
+section p{
+    position: relative;
+    color: #fff;
+}
+
+
+header.sticky{
+padding: 10px 20px;
+background: #000;
+transition: 0.5s;
+}
+
+
+
+header.sticky .logo{
+    color: #fff;
+}
+
+header.sticky ul li a{
+transition: 0.5s;
+color: #fff;
+
+}
+
+
+
+
+section p{
+    color: black;
+}
+
+
+
+
+
+
+
+
+.college{
+    position: relative;
+}
+
+
+
+
+
+
+.students{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.student-1{
+flex-basis: 50%;
+}
+
+.student-1 p{
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+
+
+.student-1 h1{
+    font-size: 54px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.student-1 h3{
+
+font-size: 32px;
+font-weight: bold;
+font-style: inherit;
+margin-top: 10px;
+
+}
+
+
+
+.student-1 a{
+    text-decoration: none;
+    font-size: 20px;
+    background: rgb(32, 32, 105);
+    color: #fff;
+    padding: 10px 22px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.fasta{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 700px){
+
+    .college{
+        width: 100%;
+    }
+    
+    
+    .students{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .student-1{
+        margin-top: 120px;
+        padding-left: 70px;
+        width: 100%;
+        flex-basis: 90%;
+
+    }
+    
+    
+    
+    .student-2 img{
+        padding-left: 20px;
+        
+    }
+    
+    .fasta{
+        display: block;
+    }
+    
+
+    .fasta i{
+        font-size: 32px;
+        color: red;
+        margin-right: 90px;
+    }
+    
+
+
+    .main-link{
+        display: none;
+    }
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{
+    margin-top: 16px;
+}
+
+
+.icon i{
+
+font-size: 30px;
+margin-right: 10px;
+
+}
+
+
+.student-2{
+    flex-basis: 50%;
+}
+
+.student-2 img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+
+.college{
+    background: rgb(176, 176, 182);
+}
+
+
+
+.skills{
+background: #000016;
+color: #fff;
+padding-top: 100px;
+padding-bottom: 78px;
+}
+
+
+
+.skills .content{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+    gap: 40px;
+    
+}
+
+
+
+
+
+
+@media(max-width: 700px){
+
+
+
+
+.skills .content{
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.skills .content .col-left{
+
+flex-basis: 100%;
+}
+
+.skills .content .col-left h2{
+    text-align: center;
+}
+
+
+
+}
+
+
+
+
+.column{
+    color: #fff;
+}
+
+.skills .content .col-left{
+color: #fff;
+position: relative;
+flex-basis: 50%;
+}
+
+.skills .content .col-left p{
+    color: #fff;
+    line-height: 18px;
+}
+
+
+.skills .content .col-left h2{
+    margin-bottom: 11px;
+}
+
+
+
+.skills .content .col-right{
+
+    position: relative;
+    width: 50%;
+}
+
+
+
+.skills .content .col-right .bar{
+    margin-bottom: 25px;
+padding: 10px;
+    
+}
+
+.skills .content .col-right .bar .info{
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.skills .content .col-right .bar span{
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.skills .content .col-right .bar .line{
+
+position: relative;
+width: 100%;
+height: 15px;
+background: #ccc;
+}
+
+
+.skills .content .col-right .bar .line::before{
+
+content: "";
+position: absolute;
+height: 100%;
+top: 0;
+left: 0;
+border-radius: 2px;
+
+}
+
+
+.skills .content .col-right .bar .html::before{
+    width: 95%;
+    background: red;
+    }
+
+
+
+    .skills .content .col-right .bar .css::before{
+        width: 92%;
+        background: blue;
+        }
+            
+
+
+
+        .skills .content .col-right .bar .javascript::before{
+            width: 95%;
+            background: green;
+            }
+                
+    
+
+            .skills .content .col-right .bar .react::before{
+                width: 96%;
+                background: cyan;
+                }
+    
+
+
+
+                .col-left a{
+                    background: darkcyan;
+                    padding: 10px 20px;
+                    display: inline-block;
+                    font-size: 18px;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+
+
+
+.talent{
+
+width: 80%;
+margin: auto;
+gap: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
